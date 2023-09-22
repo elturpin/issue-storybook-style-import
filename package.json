@@ -1,0 +1,18 @@
+{
+  "name": "storybook-style-issue",
+  "version": "1.0.0",
+  "description": "Minimal code to demonstrate an issue with style import with storybook using ViteJS",
+  "type": "module",
+  "scripts": {
+    "storybook": "storybook dev --no-open -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.3.2",
+    "@storybook/addon-links": "^7.3.2",
+    "@storybook/blocks": "^7.3.2",
+    "@storybook/web-components": "^7.3.2",
+    "@storybook/web-components-vite": "^7.3.2",
+    "storybook": "^7.3.2"
+  }
+}
